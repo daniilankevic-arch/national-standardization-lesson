@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101e35">
+  <meta name="description" content="Интерактивное теоретическое занятие: национальная система стандартизации, разработка стандартов, надзор, маркировка и нормоконтроль.">
+  <title>Стандарты • Интерактивное занятие</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
+  <script defer src="content.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Перейти к содержанию</a>
+<aside class="sidebar" id="sidebar">
+  <a class="brand" href="#home"><span class="brand-icon">С</span><span>СТАНДАРТЫ<small>интерактивный учебник</small></span></a>
+  <div class="rail-caption">МАРШРУТ ЗАНЯТИЯ</div><nav id="navigation" aria-label="Разделы занятия"></nav>
+  <div class="rail-progress"><div><span>Изучено разделов</span><strong id="progressLabel">0 / 5</strong></div><progress id="progress" max="5" value="0">0 из 5</progress><small>Прогресс сохраняется в этом браузере</small></div>
+  <button class="rail-button" id="teacherToggle" aria-pressed="false">Режим преподавателя</button>
+</aside>
+<div class="workspace">
+ <header class="topbar"><button class="icon-button" id="menuToggle" aria-label="Открыть меню" aria-expanded="false">☰</button><span>ТЕОРИЯ + ИНТЕРАКТИВ</span><div class="toolbar"><button id="fontToggle" title="Увеличить текст" aria-pressed="false">Аа +</button><button id="presentToggle" aria-pressed="false">На экран</button><button id="printButton">Печать</button></div></header>
+ <main id="main" tabindex="-1"></main>
+ <footer>Учебное приложение · Нормативная проверка: 16 октября 2026 · <a href="#sources">Источники и актуальность</a></footer>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+<noscript>Для интерактивных заданий включите JavaScript. Полный теоретический материал доступен в файле THEORY.md в архиве приложения.</noscript>
+</body></html>
